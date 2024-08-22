@@ -210,5 +210,51 @@ fun main(){
 }
 
 
+-----------------------------------------------------operators---------------------------------------------------------------------------------
 
+fun main() {
+    var a = 10
+    var b = 5
+    val isTrue = true
+    val isFalse = false
+    var add = a+b
+    //println("Result of $a + $b = $add")
+    //println("Result of $a * $b = ${a*b} ")
+    //println("Result of $a / $b = ${a/b} ")
+    //println("Result of $a - $b = ${a-b} ")
+    //println("Result of $a % $b = ${a%b} ")
+    
+    
+  
+    
+    //println("Result of $a < $b = ${a<b} ")
+    //println("Result of $a > $b = ${a>b} ")
+    //println("Result of $a == $b = ${a==b} ") 
+    //println("Result of $a >= $b = ${a>=b} ")
+    //println("Result of $a <= $b = ${a<=b} ")
+    //println("Result of $a != $b = ${a!=b} ")
+    
+    
+    
+    //println("Result of --a ${--a}")
+    //println("Result of ++a ${++a}")
+    
+
+    
+    println("Result of $isTrue && $isFalse = ${isTrue && isFalse}")
+    println("Result of $isTrue || $isFalse = ${isTrue || isFalse}")
+    println("Result of !$isTrue   = ${!isFalse}")
+  
+    
+    
+    
+    
+    
+}
 */
+
+
+
+
+
+
