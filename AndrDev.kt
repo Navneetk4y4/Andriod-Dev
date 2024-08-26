@@ -251,6 +251,179 @@ fun main() {
     
     
 }
+
+
+-----------------------------------------------------------------------------control flow statement----------------------------- 
+
+
+
+
+-----------------------------if-else-----------------
+
+
+
+
+fun main(){
+   val temperature = 2
+   if(temperature > 20){
+
+    println("it's a warm day")
+
+   }
+   else{
+
+    println("good weather ")
+   }
+
+}
+
+
+fun main(){
+    val age = 18
+    if(age  >= 18){
+ 
+     println("print licence")
+ 
+    }
+    else{
+ 
+     println("can't print licence")
+    }
+ 
+ }
+
+
+
+
+
+
+
+fun main(){
+    val score = 85
+    if(score  >= 90){
+ 
+     println("Grade is A")
+ 
+    }
+    else if(score  >= 70){
+ 
+        println("Grade is B")
+    
+       }
+    else if(score  >= 70){
+ 
+        println("Grade is C")
+    
+       }
+    else{
+ 
+     println("Grade is D")
+    }
+ 
+ }
+
+
+
+
+
+
+
+fun main(){
+    val A = 85
+    val B = 30
+    val O = "/"
+    if(O == "+"){
+ 
+     println("Sum is  ${A+B}")
+ 
+    }
+    else if(O == "-"){
+ 
+        println("Diffrence is  ${A-B}")
+    
+       }
+    else if(O == "*"){
+ 
+        println("Product is  ${A*B}")
+    
+       }
+    else if(O == "/"){
+        if(B != 0 ){
+     println("Division is ${A/B}")
+        }
+        else{
+            println("Error ")
+        }
+    }
+    else{
+        println("invalid input")
+    }
+ 
+ }
+
+
+fun main(){
+    val age = 15
+    if(age  < 13){
+ 
+     println("Child")
+ 
+    }
+    else if(age >=13 && age <=19){
+ 
+        println("Teenager")
+    
+       }
+
+    else{
+ 
+     println("Adult")
+    }
+ 
+ }
+
+
+
+
+-----------------------------when-----------------
+
+fun main(){
+    val DayOfWeek = 3
+
+    val DayName = when(DayOfWeek){
+
+        1-> "Monday"
+        2-> "Tuesday"
+        3-> "Wednesday"
+        4-> "thursday"
+        5-> "Friday"
+        6-> "Saturday"
+        7-> "Sunday"
+        else -> "Invalid Input"
+    }
+
+    println(DayName)
+}
+
+
+
+
+
+
+fun main(){
+
+    val number = 23
+
+    when{
+        number%2 == 0 -> println("Number is even")
+        number%2 != 0 -> println("Number is odd")
+        else -> println("Invalid input ")
+    }
+}
+
+
+
+-------------------------For Loop-----------------------------------------
 */
 
 
