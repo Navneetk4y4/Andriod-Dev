@@ -424,6 +424,64 @@ fun main(){
 
 
 -------------------------For Loop-----------------------------------------
+
+
+
+
+
+//-------------------------funtions----------------------------------------
+
+fun sum(a:Int = 10 , b:Int=20)
+{
+     val c = a+b
+     println(c)
+}
+
+fun main(){
+    sum(20,50)
+    sum()
+}
+
+
+
+
+fun sum(a:Int, b:Int ){
+    val c=a+b
+    println(c)
+}
+
+fun main(){
+    sum(20,70)
+}
+
+
+
+
+//----------------using return ----------------------
+
+
+
+fun main(){
+    val a = 10
+    val b = 20
+
+    val result = sum(a, b)
+
+    println(result)
+}
+
+fun sum(a:Int , b:Int):Int{
+
+    val x = a+b
+
+    return x
+}
+
+
+fun factorial(n:Int): Int{
+    return if( n<= 1) 1 else n*factorial(n-1)
+
+}
 */
 
 
